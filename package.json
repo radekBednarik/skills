@@ -1,20 +1,22 @@
 {
-  "name": "skills",
+  "name": "radekbednarik-skills",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Agent skills for free use.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sh tests/find-pict.test.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.21.0",
-      "onFail": "download"
-    }
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "pict",
+    "pairwise-testing"
+  ],
+  "author": "radekBednarik",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radekBednarik/skills.git"
   },
   "packageManager": "pnpm@12.21.0",
   "type": "module"
